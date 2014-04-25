@@ -1,0 +1,536 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,900);
+
+body {
+	background-color: #fafafa;
+}
+
+#mainContainer {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.anything {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+#mainContentH1p {
+	padding-left: 8%;
+}
+
+div.container header img {
+	width: 100%;
+	height: 5px;
+}
+
+div#logo {
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 222px;
+	height: 87px;
+}
+
+div#logo.floatleft img {
+	width: 222px;
+	height: 87px;
+}
+
+div#logo.floatleft a:hover img {
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s esae-in-out;
+	opacity: 0.5;
+}
+
+.floatleft {
+	float: left;
+}
+
+div#navWrapper {
+	position: fixed;
+	background-color: #fafafa;
+	width: 100%;
+	height: 130px;
+	box-shadow: 1px 10px 5px #888888;
+	z-index: 999;
+}
+
+nav {
+	padding-top: 45;
+	float: right;
+}
+
+ul {
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	margin-right: 25px;
+	text-decoration: none;
+	color:#dddddd;
+}
+
+li a:hover {
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s esae-in-out;
+	color:#a9a2e1;
+}
+
+#main_pic {
+	width: 100%;
+	height: 265px;
+	margin-top: 270px;
+}
+
+#mainContentSection {
+	margin-top: 40px;
+	margin-left: 0px;
+}
+
+#mainContentSection h1 {
+	margin-bottom: 15px;
+	color:#dddddd;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 46px;
+	text-align: center;
+}
+
+#mainContentSection p {
+	padding-bottom: 270px;
+	height: 55px;
+	color:#b6b6b6;
+	font-family: 'Lato', sans-serif;
+	line-height: 25px;
+	text-align: center;
+}
+
+
+section#about {
+	width: 100%;
+	height: 500px;
+	background-color: #f3ea6d;
+}
+
+div#h2About {
+	padding-top: 140px;
+}
+
+div#h2Compatibility {
+	padding-top: 140px;
+}
+
+div#h2Features {
+	padding-top: 140px;
+}
+
+div#h2Download {
+	padding-top: 140px;
+}
+
+section#compatibility {
+	width: 100%;
+	height: 500px;
+	background-color: #79f8a3;
+}
+
+section#features {
+	width: 100%;
+	height: 500px;
+	background-color: #79dff8;
+}
+
+section#pricing {
+	width: 100%;
+	height: 500px;
+	background-color: #9179f8;
+}
+
+section#about div h2 {
+	padding-left: 300px;
+	padding-top: 25px;
+	margin-bottom: 16px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 38px;
+}
+
+section#about div p {
+	margin-bottom: 0px;
+	padding-left: 300px;
+	width: 900px;
+	height: 200px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	line-height: 25px;
+}
+
+section#compatibility div h2 {
+	margin-top: 0px;
+	padding-left: 550px;
+	padding-top: 25px;
+	margin-bottom: 16px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 38px;
+}
+
+section#compatibility div p {
+	margin-bottom: 0px;
+	margin-left: 200px;
+	padding-left: 350px;
+	width: 900px;
+	height: 200px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	line-height: 25px;
+}
+
+section#compatibility div img.floatleft {
+	padding-top: 30px;
+	padding-left: 300px;
+}
+
+img.floatright {
+	margin-top: 30px;
+	margin-right: 200px;
+	float: right;
+}
+
+section#features div h2 {
+	margin-top: 0px;
+	padding-left: 300px;
+	padding-top: 25px;
+	margin-bottom: 16px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 38px;
+}
+
+section#features div p {
+	margin-bottom: 0px;
+	padding-left: 300px;
+	width: 900px;
+	height: 200px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	line-height: 25px;
+}
+
+section#pricing div h2 {
+	margin-top: 0px;
+	padding-left: 550px;
+	padding-top: 25px;
+	margin-bottom: 16px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 38px;
+}
+
+section#pricing div p {
+	margin-bottom: 0px;
+	margin-left: 200px;
+	padding-left: 350px;
+	width: 900px;
+	height: 200px;
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	line-height: 25px;
+}
+
+section#pricing div img.floatleft {
+	padding-top: 30px;
+	margin-left: 300px;
+}
+
+section#pricing div a img.floatleft {
+	opacity: 100;
+}
+
+section#pricing div a:hover img.floatleft {
+	opacity: 0.4;
+	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s esae-in-out;
+}
+
+footer {
+	width: 100%;
+	height: 30px;
+	background-color: #fafafa;
+}
+
+footer p {
+	color: #b6b6b6;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1280px) {  
+/*laptop*/
+
+
+	#mainContentH1p {
+		padding-left: 0;
+	}
+
+	section#about div#h2About h2{
+		padding-left: 200px;
+	}
+
+	section#about div#h2About p{
+		padding-left: 200px;
+	}
+
+	img.floatright{
+		margin-right: 100px;
+	}
+
+	img.floatleft{
+		padding-left: 200px;
+	}
+
+	section#compatibility div#h2Compatibility img.floatleft {
+		padding-left: 200px;
+	}
+
+	section#compatibility div#h2Compatibility p {
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	section#compatibility div#h2Compatibility h2 {
+		padding-left: 450px;
+	}
+
+	section#features div#h2Features h2 {
+		padding-left: 200px;
+	}
+
+	section#features div#h2Features p {
+		padding-left: 200px;
+	}
+
+	section#pricing div#h2Download a img.floatleft {
+		margin-left: 0px;
+	}	
+
+	section#pricing div#h2Download h2 {
+		padding-left: 450px;
+	}
+	section#pricing div#h2Download p {
+		padding-left: 450px;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 900px) {  
+/*table*/
+
+		div#h2compatibility p {
+			width: 100%;
+		}
+		
+		section#about div#h2About h2{
+			padding-left: 20px;
+		}
+
+		section#about div#h2About p{
+			padding-left: 20px;
+			width:100%;
+		}
+
+		img.floatright{
+			margin-right: 0px;
+		}
+
+		img.floatleft{
+			padding-left: 10px;
+		}
+
+		section#compatibility div#h2Compatibility img.floatleft {
+			padding-left: 20px;
+		}
+
+		section#compatibility div#h2Compatibility p {
+			margin-left: 0px;
+			padding-left: 0px;
+			width: 100%;
+		}
+
+		section#compatibility div#h2Compatibility h2 {
+			padding-left: 0px;
+		}
+
+		section#features div#h2Features h2 {
+			padding-left: 20px;
+		}
+
+		section#features div#h2Features p {
+			padding-left: 0px;
+			width:100%;
+		}
+
+		section#pricing div#h2Download a img.floatleft {
+			margin-left: 0px;
+		}	
+
+		section#pricing div#h2Download h2 {
+			padding-left: 20px;
+		}
+		section#pricing div#h2Download p {
+			padding-left: 0px;
+			margin-left: 0px;
+			width:100%;
+		}
+
+
+}
+
+@media screen and (max-width: 684px) { 
+
+	nav ul#nav1 li a {
+		font-size: 11px;
+	}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {  
+/*cellphone*/
+
+	div#navWrapper div#logo.floatleft a img {
+		margin-left: 0px;
+	}
+	
+	div#navWrapper {
+		height: 140px;
+	}
+
+	#navWrapper nav {
+		padding-top: 0px;
+	}
+
+	nav ul#nav1 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-left: 20px;
+		font-size: 10px;
+	}
+
+	#main_pic {
+		width: 380px;
+		height: 101px;
+
+	}
+
+	div#mainContentSection h1 {
+		padding-left: 0px;
+	}
+
+	#mainContentSection h1 {
+		padding-left: 0px;
+		font-size: 20px;
+	}
+
+	div#mainContentSection p {
+		width: 300px;
+		height: 270px;
+		padding-left: 0px;
+		font-size: 11px;
+	}
+	
+	div#mainContainer div#mainContentSection div#mainContentH1p {
+		margin-left: 50px;
+		padding-left: 0px;
+	}
+
+	div#mainContainer div#mainContentSection div#mainContentH1p p {
+		margin-left: 0px;
+		padding-right: 0px;
+		width: 350px;
+	}
+
+	section#about div#h2About h2{
+		padding-left: 20px;
+	}
+
+	section#about div#h2About p{
+		padding-left: 20px;
+		font-size: 10px;
+		width: 400px;
+	}
+
+	img#hov.floatright {
+		display: none;
+	}
+
+	img.floatleft {
+		display: none;
+	}
+	img.floatright {
+		display: none;
+	}
+
+	img#main_pic {
+		margin-left: 0px;
+	}
+
+	div#mainContainer section#compatibility #h2Compatibility h2 {
+		padding-left: 20px;
+	}
+
+	div#mainContainer section#compatibility #h2Compatibility p {
+		margin-left: 0px;
+		padding-left: 20px;
+		font-size: 10px;
+		width: 400px;
+	}
+
+	section#features div#h2Features h2 {
+		width: 400px;
+		padding-left: 20px;
+	}
+
+	section#features div#h2Features p {
+		padding-left: 20px;
+		font-size: 10px;
+		width: 400px;
+	}
+
+		section#pricing div#h2Download h2 {
+		padding-left: 20px;
+	}
+
+	section#pricing div#h2Download p {
+		margin-left: 0px;
+		padding-left: 20px;
+		width: 400px;
+		font-size: 10px
+	}
+
+}
+
